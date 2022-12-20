@@ -33,16 +33,9 @@ IT人材の確保・育成のため，2020年より小学校プログラミン�
 この教材の問題点として，短いアニメーションと文字のみで解説文との対応が無いこと，高等学校において電子版の教科書が普及していないことが挙げられる
 
 \section{学習内容について}
-作成したWeb教材の学習内容を図\ref{fig:内容}に示す．
 高校の科目「情報Ⅰ」の学習内容「ネットワークのプロトコル」から，「カプセル化」，「パケットの構造」，「下位層の役割」を学習する．
 本研究で開発したWeb教材は，ネットワークの基礎であるTCP/IPとOSI参照モデル，データリンク層とネットワーク層を学習する授業で利用されることを想定している．
-\begin{figure}[h]
-\begin{center}
- \includegraphics[clip,width=90mm,height=55mm]{figures/naiyou.pdf}
-\end{center}
- \caption{Web教材の学習内容}
- \label{fig:内容}
-\end{figure}
+
 \section{開発した教材について}
 教育機関で配布される小型のタブレットやPC想定して，小さな画面における視認性や操作性を考慮して画面を設計した．
 メインとなる図や解説文は，拡大縮小やスクロール操作を行わずに操作できるようにしている．
@@ -55,6 +48,9 @@ IT人材の確保・育成のため，2020年より小学校プログラミン�
 ③は，②の操作に対応した解説文を表示する，解説表示部である．
 ④は，③内の用語を解説する，用語解説部である．
 
+作成したWeb教材の「シミュレータ画面」の例を図\ref{fig:画面2}に示す．
+⑤は，シミュレータのアドレスや通信方式の設定を行う，シミュレータ設定部である．
+
 \begin{figure}[h]
 \begin{center}
  \includegraphics[clip,width=90mm,height=45mm]{figures/gamen.pdf}
@@ -63,14 +59,20 @@ IT人材の確保・育成のため，2020年より小学校プログラミン�
  \label{fig:画面}
 \end{figure}
 
+\begin{figure}[h]
+\begin{center}
+ \includegraphics[clip,width=90mm,height=45mm]{figures/gamen2.pdf}
+\end{center}
+ \caption{Web教材のシミュレータ画面}
+ \label{fig:画面2}
+\end{figure}
+
 \section{おわりに}
 本研究では，ネットワーク通信の基礎を学習する講義形式の授業を補助するWeb教材を開発した．今後このような，生徒や学生が自分で操作し学習できるWeb教材が普及し，講義形式の授業で学習内容を深く理解できるようになることを期待している．
 
 \begin{thebibliography}{99}
 \bibitem{dx} 総務省: ``令和4年度版 情報通信白書'', p101, \url{https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r04/pdf/n3800000.pdf}, 2022/12/12参照
 
-%\bibitem{koukou_kyokasyo} 文部科学省: ``デジタル教科書に関する制度・現状について - 文部科学省'', \url{https://www.mext.go.jp/content/20200710-mxt_kyokasyo-000008653_03.pdf}, 2022/8/25参照
-
-\end{thebibliography}
+{thebibliography}
 
 \end{document}
